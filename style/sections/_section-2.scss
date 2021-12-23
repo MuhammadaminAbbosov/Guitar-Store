@@ -1,0 +1,101 @@
+.section-2 {
+    height: 798px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    span {
+        height: 3px;
+        width: 45px;
+        border-radius: 10px;
+        background-color: #AB0433;
+        margin-bottom: 8px;
+    }
+
+    h1 {
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 120%;
+        
+        text-align: center;
+        color: #505050;
+        padding-bottom: 8px;
+    }
+
+    .box-container {
+        display: flex;
+        gap: 30px;
+
+        .box {
+            border-radius: 10px;
+            width: 400px;
+            height: 391px;
+            filter: drop-shadow(0px 2px 4px rgba(28, 5, 77, 0.1)) drop-shadow(0px 12px 32px rgba(0, 0, 0, 0.05));
+
+            .img {
+                position: relative;
+                height: 252px;
+                width: 100%;
+                background: radial-gradient(98.56% 98.92% at 1.22% 1.08%, #FBFBFB 0%, #D3D3D3 100%);
+                border-radius: 10px 10px 0px 0px;
+
+                img {
+                    position: absolute;
+                    top: -20px;
+                    left: 50%;
+                    transform: translate(-50%);
+                }
+            }
+
+            .text {
+                height: 139px;
+                width: 100%;
+                border-radius: 0px 0px 10px 10px;
+                background-color: white;
+
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                padding: 16px 24px 24px;
+
+                .brend_name {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    b {
+                        font-weight: 600;
+                        font-size: 18px;
+                        line-height: 130%;
+                        
+                        color: #252525;
+                        padding-bottom: 6px;
+                    }
+                }
+
+                p {
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 130%;
+                    color: #767676;
+                    padding-bottom: 25px;
+                }
+
+                a {
+                    font-weight: bold;
+                    font-size: 12px;
+                    line-height: 150%;
+                    color: #505050;
+                    border:1px solid rgb(200, 200, 200);
+                    border-radius: 10px;
+                    padding: 3px;
+                }
+            }
+        }
+    }
+}
