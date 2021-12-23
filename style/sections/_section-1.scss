@@ -1,0 +1,103 @@
+.section-1 {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background:linear-gradient(180deg, rgba(2, 6, 11, 0.7) 0%, rgba(2, 6, 11, 0) 32.85%), url(../../assets/images/bg_sc2-g.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    padding: 40px 87px 0 87px;
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            p {
+                font-size: 24px;
+                color: white;
+            }
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            gap: 56px;
+            
+            a {
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 130%;
+                color: #FCFCFC;
+            }
+        }
+    }
+
+    .sec-1__text {
+        margin-top: 100px;
+        
+        b {
+            font-weight: bold;
+            font-size: 56px;
+            line-height: 120%;
+            letter-spacing: 0.02em;
+
+            color: #FFFFFF;
+        }
+    }
+
+    .cart {
+        position: relative;
+        bottom: -140px;
+        width: 100%;
+        height: 280px;
+
+        background-color: #AB0433;
+        background-blend-mode: darken, normal;
+        
+        box-shadow: 0px 2px 4px rgba(28, 5, 77, 0.1), 0px 12px 32px rgba(0, 0, 0, 0.05);
+        border-radius: 10px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        b {
+            font-weight: bold;
+            font-size: 46px;
+            line-height: 120%;
+            text-align: center;
+            
+            color: #FFFFFF;
+        }
+
+        p {
+            padding-top: 5px;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 149%;
+            text-align: center;
+            
+            color: #FFFFFF;
+        }
+
+        button {
+            margin-top: 16px;
+            padding: 8px 16px;
+            background: #FF753A;
+            border-radius: 32px;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 130%;
+            color: white;
+            border: none;
+        }
+    }
+}
