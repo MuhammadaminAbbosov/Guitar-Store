@@ -275,12 +275,11 @@
   background-color: #ECECEC;
 }
 
-.section-3 span {
+.section-3 .line {
   height: 3px;
   width: 45px;
   border-radius: 10px;
   background-color: #AB0433;
-  margin-bottom: 8px;
 }
 
 .section-3 h1 {
@@ -843,7 +842,7 @@ footer .right .icons {
 
 body {
   font-style: normal;
-  font-family: 'Work Sans', sans-serif, 'Montserrat';
+  font-family: 'Work Sans', sans-serif;
 }
 
 a {
